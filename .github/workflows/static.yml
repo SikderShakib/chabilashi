@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>চা-বিলাসী | শ্রীমঙ্গলের প্রিমিয়াম কোয়ালিটি চা</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Hind Siliguri', sans-serif;
+            scroll-behavior: smooth;
+        }
+        .hero-bg {
+            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1544787210-2211d44b565a?auto=format&fit=crop&q=80&w=1920');
+            background-size: cover;
+            background-position: center;
+        }
+        .gold-text {
+            color: #D4AF37;
+        }
+        .btn-hover:hover {
+            transform: translateY(-2px);
+            transition: all 0.3s ease;
+        }
+        .whatsapp-float {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #25d366;
+            color: white;
+            border-radius: 50px;
+            text-align: center;
+            font-size: 30px;
+            box-shadow: 2px 2px 3px #999;
+            z-index: 100;
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 16px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body class="bg-stone-50 text-slate-800">
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/88018336476892" target="_blank" class="whatsapp-float btn-hover">
+        <i class="fab fa-whatsapp text-2xl"></i>
+        <span>অর্ডার করুন</span>
+    </a>
+
+    <nav class="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-stone-200 shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-20 items-center">
+                <div class="flex-shrink-0 flex items-center">
+                    <h1 class="text-3xl font-bold gold-text">চা-বিলাসী</h1>
+                </div>
+                <div class="hidden md:flex space-x-8 text-lg font-medium">
+                    <a href="#home" class="hover:text-green-700 transition">হোম</a>
+                    <a href="#products" class="hover:text-green-700 transition">চায়ের তালিকা</a>
+                    <a href="#about" class="hover:text-green-700 transition">আমাদের গল্প</a>
+                    <a href="#contact" class="hover:text-green-700 transition">যোগাযোগ</a>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <a href="tel:018336476892" class="bg-green-700 text-white px-5 py-2 rounded-full font-semibold hover:bg-green-800 transition btn-hover">
+                        কল করুন
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero-bg h-[80vh] flex items-center justify-center text-center px-4">
+        <div class="max-w-3xl">
+            <h2 class="text-white text-4xl md:text-6xl font-bold mb-6">শ্রীমঙ্গলের প্রিমিয়াম কোয়ালিটি চা</h2>
+            <p class="text-stone-200 text-xl md:text-2xl mb-8">সরাসরি বাগান থেকে বাছাই করা ফ্রেশ চা পৌঁছে যাবে আপনার দরজায়। স্বাদে ও সুগন্ধে অনন্য "চা-বিলাসী"!</p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="#products" class="bg-white text-green-900 px-8 py-3 rounded-lg font-bold text-lg hover:bg-stone-100 transition btn-hover">
+                    অর্ডার করুন
+                </a>
+                <a href="https://wa.me/88018336476892" target="_blank" class="bg-green-500 text-white px-8 py-3 rounded-lg font-bold text-lg hover:bg-green-600 transition btn-hover">
+                    <i class="fab fa-whatsapp mr-2"></i> হোয়াটসঅ্যাপ ১
+                </a>
+                <a href="https://wa.me/8801521709472" target="_blank" class="bg-green-600 text-white px-8 py-3 rounded-lg font-bold text-lg hover:bg-green-700 transition btn-hover">
+                    <i class="fab fa-whatsapp mr-2"></i> হোয়াটসঅ্যাপ ২
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="products" class="py-20 max-w-7xl mx-auto px-4">
+        <div class="text-center mb-16">
+            <h3 class="text-3xl md:text-4xl font-bold mb-4">আমাদের চায়ের কালেকশন</h3>
+            <div class="w-24 h-1 bg-green-700 mx-auto rounded-full"></div>
+            <p class="mt-4 text-stone-600">সেরা মানের চা পাতা, সাশ্রয়ী মূল্যে।</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- Product 1 -->
+            <div class="bg-white rounded-2xl overflow-hidden shadow-lg border border-stone-100 hover:shadow-2xl transition duration-300">
+                <img src="https://images.unsplash.com/photo-1594631252845-29fc45865157?auto=format&fit=crop&q=80&w=600" alt="Premium BOP" class="w-full h-64 object-cover">
+                <div class="p-6">
+                    <h4 class="text-xl font-bold mb-2">প্রিমিয়াম বিওপি (BOP)</h4>
+                    <p class="text-stone-600 mb-4 text-sm">শ্রীমঙ্গলের সেরা বাগানের কড়া লিকার ও চমৎকার ফ্লেভারের চা।</p>
+                    <div class="flex justify-between items-center">
+                        <span class="text-2xl font-bold text-green-700">৳ ৪৫০ <span class="text-sm text-stone-500">/ ৫০০ গ্রাম</span></span>
+                        <button onclick="openOrderModal('প্রিমিয়াম বিওপি')" class="bg-green-700 text-white p-2 rounded-full hover:bg-green-800 transition">
+                            <i class="fas fa-shopping-cart"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="bg-white rounded-2xl overflow-hidden shadow-lg border border-stone-100 hover:shadow-2xl transition duration-300">
+                <img src="https://images.unsplash.com/photo-1564890369478-c89ca6d9cde9?auto=format&fit=crop&q=80&w=600" alt="Green Tea" class="w-full h-64 object-cover">
+                <div class="p-6">
+                    <h4 class="text-xl font-bold mb-2">পিউর গ্রিন টি</h4>
+                    <p class="text-stone-600 mb-4 text-sm">স্বাস্থ্য সচেতনদের জন্য অ্যান্টি-অক্সিডেন্ট সমৃদ্ধ সতেজ গ্রিন টি।</p>
+                    <div class="flex justify-between items-center">
+                        <span class="text-2xl font-bold text-green-700">৳ ৩৫০ <span class="text-sm text-stone-500">/ ২৫০ গ্রাম</span></span>
+                        <button onclick="openOrderModal('পিউর গ্রিন টি')" class="bg-green-700 text-white p-2 rounded-full hover:bg-green-800 transition">
+                            <i class="fas fa-shopping-cart"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="bg-white rounded-2xl overflow-hidden shadow-lg border border-stone-100 hover:shadow-2xl transition duration-300">
+                <img src="https://images.unsplash.com/photo-1597481499750-3e6b22637e12?auto=format&fit=crop&q=80&w=600" alt="Special Masala" class="w-full h-64 object-cover">
+                <div class="p-6">
+                    <h4 class="text-xl font-bold mb-2">স্পেশাল মসলা চা</h4>
+                    <p class="text-stone-600 mb-4 text-sm">এলাচ, দারুচিনি ও আদার সংমিশ্রণে তৈরি রাজকীয় স্বাদের মসলা চা।</p>
+                    <div class="flex justify-between items-center">
+                        <span class="text-2xl font-bold text-green-700">৳ ২৭০ <span class="text-sm text-stone-500">/ ২৫০ গ্রাম</span></span>
+                        <button onclick="openOrderModal('স্পেশাল মসলা চা')" class="bg-green-700 text-white p-2 rounded-full hover:bg-green-800 transition">
+                            <i class="fas fa-shopping-cart"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="bg-stone-100 py-12 border-t border-stone-200">
+        <div class="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-10">
+            <div>
+                <h4 class="text-3xl font-bold gold-text mb-4">চা-বিলাসী</h4>
+                <p class="text-stone-600 mb-6 italic">"শ্রীমঙ্গলের প্রিমিয়াম কোয়ালিটি চা"</p>
+                <div class="flex space-x-4">
+                    <a href="#" class="text-green-700 text-2xl hover:text-green-800"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="text-green-700 text-2xl hover:text-green-800"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="text-green-700 text-2xl hover:text-green-800"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            
+            <div>
+                <h5 class="font-bold text-lg mb-4">যোগাযোগ ও হোয়াটসঅ্যাপ</h5>
+                <ul class="space-y-4 text-stone-600">
+                    <li><i class="fas fa-map-marker-alt mr-2 text-green-700"></i> শ্রীমঙ্গল, মৌলভীবাজার।</li>
+                    <li>
+                        <a href="https://wa.me/88018336476892" target="_blank" class="flex items-center hover:text-green-700 transition">
+                            <i class="fab fa-whatsapp mr-2 text-green-600 text-xl"></i> ০১৮৩৩-৬৪৭৬৮৯২
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://wa.me/8801521709472" target="_blank" class="flex items-center hover:text-green-700 transition">
+                            <i class="fab fa-whatsapp mr-2 text-green-600 text-xl"></i> ০১৫২১-৭০৯৪৭২
+                        </a>
+                    </li>
+                    <li class="text-xs text-stone-400 mt-2 italic">* নম্বরগুলোতে ক্লিক করলে সরাসরি হোয়াটসঅ্যাপ ওপেন হবে</li>
+                </ul>
+            </div>
+
+            <div>
+                <h5 class="font-bold text-lg mb-4">অর্ডার পদ্ধতি</h5>
+                <p class="text-stone-600 text-sm mb-4">আপনার পছন্দের চা বাছাই করে আমাদের ফোন অথবা হোয়াটসঅ্যাপে মেসেজ করুন। আমরা আপনার নাম ও ঠিকানা সংগ্রহ করে পণ্য পাঠিয়ে দেব।</p>
+                <div class="bg-white p-4 rounded-xl border border-stone-200">
+                    <p class="text-xs text-stone-500 mb-1">সকাল ৯টা - রাত ১০টা</p>
+                    <p class="font-bold text-green-800">পণ্য হাতে পেয়ে পেমেন্ট করুন!</p>
+                </div>
+            </div>
+        </div>
+        <div class="text-center mt-12 pt-8 border-t border-stone-200 text-stone-500 text-sm">
+            &copy; ২০২৪ চা-বিলাসী। সর্বস্বত্ব সংরক্ষিত।
+        </div>
+    </footer>
+
+    <!-- Order Notification Modal -->
+    <div id="orderModal" class="fixed inset-0 bg-black/50 hidden z-[100] flex items-center justify-center p-4">
+        <div class="bg-white rounded-2xl p-8 max-w-md w-full text-center">
+            <div class="text-5xl text-green-600 mb-4"><i class="fas fa-shopping-bag"></i></div>
+            <h3 class="text-xl font-bold mb-2" id="selectedItemTitle">অর্ডার নিশ্চিত করুন</h3>
+            <p class="text-stone-600 mb-6">নিচের যেকোনো একটি হোয়াটসঅ্যাপ নম্বরে মেসেজ দিয়ে আপনার অর্ডারটি কনফার্ম করুন।</p>
+            
+            <div class="grid grid-cols-1 gap-3">
+                <a id="waLink1" href="https://wa.me/88018336476892" target="_blank" class="bg-green-600 text-white py-3 rounded-lg font-bold hover:bg-green-700 transition flex items-center justify-center gap-2">
+                    <i class="fab fa-whatsapp"></i> হোয়াটসঅ্যাপ ১ (প্রধান)
+                </a>
+                <a id="waLink2" href="https://wa.me/8801521709472" target="_blank" class="bg-green-500 text-white py-3 rounded-lg font-bold hover:bg-green-600 transition flex items-center justify-center gap-2">
+                    <i class="fab fa-whatsapp"></i> হোয়াটসঅ্যাপ ২
+                </a>
+                <a href="tel:018336476892" class="bg-stone-800 text-white py-3 rounded-lg font-bold hover:bg-black transition flex items-center justify-center gap-2">
+                    <i class="fas fa-phone-alt"></i> সরাসরি কল করুন
+                </a>
+                <button onclick="closeModal()" class="text-stone-500 font-medium py-2 mt-2">ফিরে যান</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function openOrderModal(itemName) {
+            const modal = document.getElementById('orderModal');
+            const title = document.getElementById('selectedItemTitle');
+            const waLink1 = document.getElementById('waLink1');
+            const waLink2 = document.getElementById('waLink2');
+            
+            const message = encodeURIComponent(`হ্যালো চা-বিলাসী, আমি "${itemName}" অর্ডার করতে চাই। বিস্তারিত জানাবেন কি?`);
+            
+            title.innerText = itemName + " অর্ডার করুন";
+            waLink1.href = `https://wa.me/88018336476892?text=${message}`;
+            waLink2.href = `https://wa.me/8801521709472?text=${message}`;
+            
+            modal.classList.remove('hidden');
+        }
+
+        function closeModal() {
+            document.getElementById('orderModal').classList.add('hidden');
+        }
+
+        window.onclick = function(event) {
+            const modal = document.getElementById('orderModal');
+            if (event.target == modal) {
+                closeModal();
+            }
+        }
+    </script>
+</body>
+</html>
